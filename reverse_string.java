@@ -4,10 +4,10 @@ public class Main
 		String string1="Valencia";
         String reverse_string="";
         char c;
-        for( int i=string1.length()-1;i>=0;i--)
+        for( int i=0;i<string1.length();i++)
         {
             c=string1.charAt(i);
-            reverse_string+=c;
+            reverse_string=c+reverse_string;
         }
         System.out.println(reverse_string);
 	    }
